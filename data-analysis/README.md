@@ -6,3 +6,7 @@
 - In case of installing a new package
     - run `pip install <package-name>` in the terminal
     - then run `pip freeze > requirements.txt` to update the requirements file.
+
+## TODO
+
+- Add an explanation of each column of the dataframe in `analyzing-data.ipynb`
