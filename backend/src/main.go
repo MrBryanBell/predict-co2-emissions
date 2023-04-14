@@ -23,5 +23,14 @@ func main() {
 		ctx.JSON(200, car)
 	})
 
+	r.GET("/predict/co2-emissions/about", func(ctx *gin.Context) {
+		formula := car.CO2EmissionsFormula()
+
+		ctx.JSON(200, gin.H{
+			"formula": formula,
+			"author":  "Bryan Bell",
+		})
+	})
+
 	r.Run()
 }
