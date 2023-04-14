@@ -20,8 +20,8 @@
 			]
 		}
 	},
-	"workspaceMount": "source=${localWorkspaceFolder},target=/home/app,type=bind",
-	"workspaceFolder": "/home/app",
+	// "workspaceMount": "source=${localWorkspaceFolder},target=/home/app,type=bind",
+	// "workspaceFolder": "/home/app",
 	"forwardPorts": [8080]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
