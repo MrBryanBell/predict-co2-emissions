@@ -4,7 +4,7 @@
 		// Sets the run context to one level up instead of the .devcontainer folder.
 		"context": "..",
 		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
-		"dockerfile": "../Dockerfile"
+		"dockerfile": "../Dockerfile-vsc"
 	},
 	"customizations": {
 		"vscode": {
@@ -22,8 +22,8 @@
 			]
 		}
 	},
-	"workspaceMount": "source=${localWorkspaceFolder},target=/home/app,type=bind",
-	"workspaceFolder": "/home/app",
+	// "workspaceMount": "source=${localWorkspaceFolder},target=/home/app,type=bind",
+	// "workspaceFolder": "/home/app",
 	// list of ports inside the container available locally.
 	// ex: [80, 443, 8080]
 	"forwardPorts": [8888]
